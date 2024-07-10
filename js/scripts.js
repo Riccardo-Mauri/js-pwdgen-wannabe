@@ -32,7 +32,6 @@ document.writeln('Il tuo Nome è:' + ElementName);
 document.writeln('Il tuo Cognome è:' + ElementSurname);
 document.writeln('Il tuo Colore preferito è:' + ElementColor);
 
-
+//5. genera la password
 console.log('La tua password è:' + ElementName + ElementSurname + ElementColor + 130);
-
 document.getElementById('password').innerHTML = 'La tua password è:' + ElementName + ElementSurname + ElementColor + 130;

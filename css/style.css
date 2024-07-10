@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open-sans';
+}
+
+/*
+MAIN
+*/
+main{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: yellowgreen;
+    color: grey;
+}
+.Style-pass{
+    color: white;
+    font-size: 2rem;
+    text-decoration: underline;
+}
