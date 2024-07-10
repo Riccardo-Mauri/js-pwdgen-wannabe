@@ -22,16 +22,6 @@ console.log('Il tuo nome è:' + ElementName);
 console.log('Il tuo cognome è:' + ElementSurname);
 console.log('Il tuo nome è:' + ElementColor);
 
-//4. inserirsco ora nella pagina il risultato + 130
-document.getElementById('result_name').innerHTML = 'Il tuo Nome è:' + ElementName;
-document.getElementById('result_surname').innerHTML = 'Il tuo Cognome è:' + ElementSurname;
-document.getElementById('result_color').innerHTML = 'Il tuo Colore preferito è:' + ElementColor;
-
-//4.5 inserisco il risultato come stringa nel HTML 
-document.writeln('Il tuo Nome è:' + ElementName);
-document.writeln('Il tuo Cognome è:' + ElementSurname);
-document.writeln('Il tuo Colore preferito è:' + ElementColor);
-
 //5. genera la password
 console.log('La tua password è:' + ElementName + ElementSurname + ElementColor + 130);
 document.getElementById('password').innerHTML = 'La tua password è:' + ElementName + ElementSurname + ElementColor + 130;
